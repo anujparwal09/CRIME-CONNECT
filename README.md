@@ -9,6 +9,13 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
+<br/>
+
+[![Live App](https://img.shields.io/badge/🌐_LIVE_APP-crime--connect--three.vercel.app-00FF00?style=for-the-badge&logoColor=white)](https://crime-connect-three.vercel.app/)
+[![Backend](https://img.shields.io/badge/⚙️_BACKEND-crime--connect.onrender.com-005571?style=for-the-badge)](https://crime-connect.onrender.com/)
+
+<br/>
+
 **An AI-Powered Forensic Investigation Platform That Thinks Like a Detective**
 
 [Live Demo](#-live-deployment) • [Features](#-core-features) • [Architecture](#-system-architecture) • [Setup](#-local-development-setup) • [Contributing](#-contributors)
@@ -88,129 +95,42 @@ By leveraging cutting-edge **Agentic Reasoning**, **Graph Databases**, and **Lar
 ## 📸 Live Interface Preview
 
 ### Landing Page - The AI That Thinks Like a Detective
-![Landing Page](https://img.shields.io/badge/Screenshot-1-blue)
+<img width="959" height="539" alt="Screenshot 2026-05-11 024002" src="https://github.com/user-attachments/assets/8169935e-f845-4bec-8e99-731229eb74ec" />
 The hero section introduces Crime Connect as an autonomous detective that plans, reasons, and connects dots across thousands of case files.
 
 ### Features Showcase
-![Features](https://img.shields.io/badge/Screenshot-2-blue)
-From raw FIR to criminal network in under 60 seconds. The three-step pipeline showcases the core value proposition:
-1. **Upload Documents** - Drop raw PDFs and incident reports
-2. **AI Builds Knowledge Graph** - Llama-3 identifies suspects, locations, weapons (94.3% accuracy)
-3. **Discover Hidden Networks** - Ask "Who is connected to Suspect X?" and get multi-hop traversal results with zero hallucinations
+<img width="958" height="539" alt="Screenshot 2026-05-11 024032" src="https://github.com/user-attachments/assets/148ec602-fa03-4c32-8607-b9585a15195f" />
 
 ### Why Crime Connect? - Core Differentiators
-![Why Crime Connect](https://img.shields.io/badge/Screenshot-3-blue)
-Highlights four key capabilities:
-- **Graph Intelligence** - Neo4j powered relationship mapping
-- **Agentic AI Reasoning** - LangGraph agents that plan investigations
-- **Temporal Crime Logic** - Timestamped events for bulletproof alibi verification
-- **Zero-Hallucination Evidence** - Every answer traced to source FIR documents
+<img width="1600" height="896" alt="image" src="https://github.com/user-attachments/assets/f5b30d41-d917-445e-bd92-7e63726bf6f6" />
 
 ### Hero Section with CTA
-![Hero Section](https://img.shields.io/badge/Screenshot-4-blue)
-"Upload disconnected FIR documents. Get an interactive knowledge graph, suspect profiling, and autonomous investigative leads — Because justice demands perfect intelligence."
+<img width="1600" height="898" alt="image" src="https://github.com/user-attachments/assets/440854b4-2062-44e6-9f23-204eb3915102" />
 
 ### Command Center Dashboard
-![Command Center](https://img.shields.io/badge/Screenshot-5-blue)
-**Global Intelligence Overview** displaying:
-- **51 Total Cases** with live data synchronization
-- **2 Suspects Tracked** in the knowledge graph
-- **0 Active Alerts** (all clear status)
-- **29 Graph Connections** across cases
-- **Activity Stream** showing real-time investigation progress
-- **Preview Overlay** with live topology visualization
+<img width="959" height="533" alt="Screenshot 2026-05-11 154930" src="https://github.com/user-attachments/assets/164ec244-97a0-40cf-9373-1d5d717c7bd6" />
 
 ### Document Ingestion Interface
-![Upload Module](https://img.shields.io/badge/Screenshot-6-blue)
-The ingestion hub featuring:
-- **Case Graph Preview** - Live visualization of entities being extracted
-- **Analytic Process Log** - Real-time progress tracking:
-  - `3:50:54 PM` → `LIVE: Processing started. OCR and Intelligence extraction running...`
-  - `3:51:10 PM` → `LIVE: Investigation ready for Case FIR-eae583a9. 18 entities extracted.`
-- **Queued Documents** - Shows pending uploads with file size
-- **Case Archive** - Browse and manage processed cases
+<img width="959" height="539" alt="Screenshot 2026-05-11 155124" src="https://github.com/user-attachments/assets/b4e2fc06-9108-44ec-aee4-b4427f96b664" />
 
 ### Graph Explorer - Forensic Relationship Network Analysis
-![Graph Explorer](https://img.shields.io/badge/Screenshot-7-blue)
-Interactive network visualization showing:
-- **36 Subjects** (suspects, victims, witnesses)
-- **66 Connections** (relationships between entities)
-- Central subject "Pawan Yadav" connected to:
-  - Multiple locations (Iron rod, Kakori, KGMU Trauma Centre)
-  - Associated suspects and accomplices
-  - Crime scenes (Village Ramnagar, Agricultural field)
-- **Detailed Analysis Panel** - Click any node to view:
-  - Entity name, type (Suspect), and descriptions
-  - Related cases and evidence
-  - Cross-reference data
+<img width="958" height="522" alt="Screenshot 2026-05-11 155309" src="https://github.com/user-attachments/assets/132783e5-4358-4d69-8daa-f3c9435bc9bb" />
 
 ### AI Detective Chatbot Interface
-![AI Detective](https://img.shields.io/badge/Screenshot-8-blue)
-The agentic reasoning interface featuring:
-- **Query Example**: "WHO IS THE VICTIM IN THIS CASE?"
-- **Analysis Summary** with key findings:
-  - Victim 1: Shri Kiran Reddy - related to multiple locations
-  - Victim 2: Arun Pratap Singh - alternate victim identified
-- **Neural Context Panel** showing:
-  - **Unknown Male 1** (Unidentified suspect)
-  - **Unknown Male 2** (Unidentified suspect)
-  - **Shri Kiran Reddy** (Identified victim)
-  - **Multiple locations** with automatic context injection
-- The AI continuously scans the graph topology and injects relevant nodes into reasoning context
+<img width="959" height="539" alt="Screenshot 2026-05-11 155447" src="https://github.com/user-attachments/assets/eddb0858-a2e3-451e-9cac-03632936e85c" />
+
 
 ### Temporal Analysis Timeline
-![Timeline View](https://img.shields.io/badge/Screenshot-9-blue)
-Chronological sequence of events:
-- `2025-02-10 00:00` - **Assault on Arun Pratap Singh**
-  - Victim brutally assaulted with iron rod by Manoj Kumar Yadav, Pawan Yadav, and unknown accomplice
-  - Agricultural field near canal in Village Ramnagar, Kakori, Lucknow
-  - Investigative recommendation: Locate "Unknown Accomplice", interview witnesses
-
-- `2025-02-13 00:00` - **Victim Admitted to KGMU Trauma Centre**
-  - Arun Pratap Singh admitted for injury treatment
-  - Medical records review recommended for injury details and forensic evidence
-
-- `2025-02-15 00:00` - *Additional timeline events*
-
-Each event includes:
-- "Analyze Trace" button for deep forensic analysis
-- "Find Related" button to discover connected cases
+<img width="1146" height="727" alt="WhatsApp Image 2026-05-11 at 11 53 42 PM" src="https://github.com/user-attachments/assets/995b6dfa-cfbf-45ea-94ea-8d0fcafb9dc7" />
 
 ### Case Registry - Case Management Interface
-![Case Registry](https://img.shields.io/badge/Screenshot-10-blue)
-Comprehensive case database with:
-- **Search functionality** - Find cases by ID or filename
-- **Case listings** with:
-  - Case ID (e.g., FIR-eae583a9)
-  - Upload timestamp
-  - Filename
-  - Entity count (10 entities extracted)
-  - Status: `completed` (green badge)
-  - Actions: `REPORT` and download options
-- **Real-time refresh** capability
-- **New FIR** upload button for adding cases
-
-Sample cases shown:
-- FIR-eae583a9: FIR_02_Murder_LandDis... (10 entities, completed)
-- FIR-a1a859f9: FIR_03_Armed_Robber... (9 entities, completed)
-- FIR-228b20cb: FIR_07_Kidnapping_Min... (0 entities, completed)
+<img width="959" height="538" alt="Screenshot 2026-05-11 155926" src="https://github.com/user-attachments/assets/2b6c0b59-8e5b-4b95-a0e1-43bd3cdb7123" />
 
 ### Investigation Report - Generated PDF
-![Report Generation](https://img.shields.io/badge/Screenshot-11-blue)
-Professional investigation report header:
-- **CRIME CONNECT INTELLIGENCE SYSTEM** branding
-- **INVESTIGATION REPORT** title
-- Case Reference: FIR-eae583a9
-- Prepared by: Pradhyumn Jadhao
-- QR code for case tracking
+<img width="310" height="395" alt="Screenshot 2026-05-11 160017" src="https://github.com/user-attachments/assets/a459675c-505b-483c-910c-237950855d0c" />
 
 ### Report Content - Analysis & Findings
-![Report Details](https://img.shields.io/badge/Screenshot-12-blue)
-Detailed investigation analysis including:
-
-**Investigation Summary:**
-- **Extracted Suspects**: Manoj Kumar Yadav, Pawan Yadav, Unknown Accomplice
-- **Extracted Locations**: Village Ramnagar, Kakori, Lucknow, Agricultural field near canal, KGMU Trauma Centre, King George's Medical University
+<img width="233" height="295" alt="Screenshot 2026-05-11 160042" src="https://github.com/user-attachments/assets/d60eed1d-dd2f-4d92-96f1-5dadea6b92f0" />
 
 **AI Reasoning & Conclusion:**
 
@@ -1085,7 +1005,6 @@ app.add_middleware(
 - [ ] Enterprise analytics dashboard
 
 ---
----
 
 ## 📄 License
 
@@ -1104,6 +1023,13 @@ This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE
 - **Render** for reliable cloud infrastructure
 - **Vercel** for edge-cached frontend deployment
 - **Upstash** for serverless Redis
+
+---
+
+## 👤 Author
+
+**Anuj Parwal** — Full Stack Developer & Lead <br>
+**Pradhyumn Jadhao** — Contributor
 
 ---
 
